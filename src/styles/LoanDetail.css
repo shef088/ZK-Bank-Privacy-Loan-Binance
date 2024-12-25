@@ -1,0 +1,65 @@
+/* LoanDetails.css */
+
+/* Container styles for the loan details page */
+.loan-details-container {
+    background-color: #f4f7fb;
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin-top: 4rem;
+  }
+  
+  /* Heading styles */
+  .loan-details-header {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the loan card */
+  .loan-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for each loan field */
+  .loan-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Label style */
+  .label {
+    font-weight: bold;
+    color: #3faffa;
+  }
+  
+  /* Value style */
+  .value {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Loading and error message styles */
+  .loading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #999;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  
